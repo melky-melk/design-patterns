@@ -78,6 +78,7 @@ public class SocialAccountBuilder{
 		SocialAccount bill = new SocialAccount("Bill", "Damon", 19, null, "314159265", null, null, "Small bio");
 		
 		//with the builder it can add everything it needs to without having to memorise where it goes in the constructor
+		// you can set what you want wnd avoid everything else
 		SocialAccount greg = new SocialAccountBuilder("GREG!", "GREG!")
 		.setAge(20)
 		.setEmail("greg!@gmail.com")
