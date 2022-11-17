@@ -8,4 +8,9 @@ The participants are just the classes that are inside of the class. the ones tha
 For UML arrows just look at this website
 https://www.gleek.io/blog/class-diagram-arrows.html
 
-also make sure to turn off any code highlighting or squiggly lines, as all of the python files are just pseudocode ripped from refactor guru
+also make sure to turn off any code highlighting or squiggly lines, as all of the python files are just pseudocode ripped from refactor guru.
+Dont expect any of the code to actually run...
+
+good to check out https://refactoring.guru/design-patterns/
+
+https://refactoring.guru/design-patterns/<pattern>

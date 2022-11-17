@@ -2,4 +2,4 @@ Facade is a structural design pattern that provides a simplified interface to a 
 
 the facade is just a class that conceals all of the complex systems in the back. 
 
- 
+refac
