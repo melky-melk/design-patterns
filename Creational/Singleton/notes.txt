@@ -1,0 +1,3 @@
+Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
+
+like you only want 1 of that instance, but all the classes should be able to use it so there isnt too many of them at once

@@ -25,3 +25,9 @@ State Design Pattern
 	- Removes case or if/else statements depending on state, and replaces them with function calls; makes the state transitions explicit; permits states to be shared
 - Limitations
 	- Does require that all the states have to have their own objects
+
+
+internally, the client doesnt trigger which state the object is in, and
+also in states the state can change between
+
+the state changes what the behaviour is, like a stratgy

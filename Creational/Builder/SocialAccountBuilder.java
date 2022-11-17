@@ -1,4 +1,4 @@
-public class SocialAccount {
+class SocialAccount {
 	private String firstName, lastName, location, phoneNumber, email, profileURl, bio;
 	private int age;
 	private SocialAccount[] importedFriends;
@@ -15,6 +15,7 @@ public class SocialAccount {
 		this.importedFriends = importedFriends;
 	}
 }
+
 public class SocialAccountBuilder{
 	private String firstName, lastName, location, phoneNumber, email, profileURl, bio;
 	private int age;
@@ -70,12 +71,12 @@ public class SocialAccountBuilder{
 	
 	public SocialAccount build(){
 		// anything that hasnt been initialised will be made into null
-		return new SocialAccount(firstName, lastName, location, phoneNumber, email, profileURl, bio, age, importedFriends);
+		return new SocialAccount(firstName, lastName, age, phoneNumber, email, profileURl, bio, location, importedFriends);
 	}
 
 	public static void main(String[] args){
 		// without the builder it  would be a pain to have all of the constructors like this in order as well
-		SocialAccount bill = new SocialAccount("Bill", "Damon", 19, null, "314159265", null, null, "Small bio");
+		SocialAccount bill = new SocialAccount("Bill", "Damon", 19, null, "314159265", null, null, "Small bio", null);
 		
 		//with the builder it can add everything it needs to without having to memorise where it goes in the constructor
 		// you can set what you want wnd avoid everything else

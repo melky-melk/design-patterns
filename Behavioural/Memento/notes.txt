@@ -1,0 +1,7 @@
+The Memento pattern delegates creating the state snapshots to the actual owner of that state, the originator object. Hence, instead of other objects trying to copy the editor’s state from the “outside,” the editor class itself can make the snapshot since it has full access to its own state.
+
+The memento is created inside of the class
+
+The memento pattern also has a caretaker which does the restoring of the mementos. This is done so that nothing else ever touches the memento and the information isnt changed
+
+The caretaker is given the memento
