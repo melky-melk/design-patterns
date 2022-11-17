@@ -5,6 +5,5 @@ unlike my other repos these are not in order of when they were taught, its just 
 
 The participants are just the classes that are inside of the class. the ones that are using the design pattern
 
-
 For UML arrows just look at this website
 https://www.gleek.io/blog/class-diagram-arrows.html
