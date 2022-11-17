@@ -7,3 +7,5 @@ The participants are just the classes that are inside of the class. the ones tha
 
 For UML arrows just look at this website
 https://www.gleek.io/blog/class-diagram-arrows.html
+
+also make sure to turn off any code highlighting or squiggly lines, as all of the python files are just pseudocode ripped from refactor guru
