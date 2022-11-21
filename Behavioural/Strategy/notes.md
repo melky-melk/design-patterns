@@ -36,3 +36,7 @@ Strategy – Consequences
 	- Clients must be aware of different strategies
 	- Communicate overhead between Strategy and Context
 	- Increased number of objects in an application 
+
+1.  **Context** stores a reference to one of the concrete state objects and delegates to it all state-specific work. The context communicates with the state object via the state interface. The context exposes a setter for passing it a new state object.
+2.  The **State** interface declares the state-specific methods. These methods should make sense for all concrete states because you don’t want some of your states to have useless methods that will never be called.
+3.  **Concrete States** provide their own implementations for the state-specific methods. To avoid duplication of similar code across multiple states, you may provide intermediate abstract classes that encapsulate some common behavior.

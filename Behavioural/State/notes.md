@@ -31,3 +31,7 @@ internally, the client doesnt trigger which state the object is in, and
 also in states the state can change between
 
 the state changes what the behaviour is, like a stratgy
+
+in states, you should create an interface, so that all possible states become a new class. and can be an object. 
+
+![[Pasted image 20221121174510.png]]

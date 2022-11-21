@@ -93,8 +93,10 @@ public class Main {
         c = new WithExtraShot(c);
         printInfo(c);
 		
+		/*
+		when it calls extra shot, it then goes to the super like "recursive"
+		*/
 		Coffee c1 = new WithExtraShot(new WithMilk(new SimpleCoffee()));
 		Coffee c2 = new WithMilk(new SimpleCoffee());
-		
     }
 }

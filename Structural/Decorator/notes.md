@@ -1,3 +1,5 @@
+Decorator is extension without extending.
+
 Essentially creates a container for the obkect.
 
 Decorator is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
@@ -13,3 +15,5 @@ Also known as a wrapper as it contains the object inside of it while kind of cha
 Wearing clothes is an example of using decorators. When you’re cold, you wrap yourself in a sweater. If you’re still cold with a sweater, you can wear a jacket on top. If it’s raining, you can put on a raincoat. All of these garments “extend” your basic behavior but aren’t part of you, and you can easily take off any piece of clothing whenever you don’t need it.
 
 So the classes dont inherit the wrapper, they just are contained inside of it
+
+Its like recursive calls, to each previous decorator its given
